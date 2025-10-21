@@ -1,0 +1,189 @@
+.background {
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background2 {
+    background-color: #fffddd;
+}
+
+.moveleft {padding-left: 50px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.font {
+    font-family: "Italianno", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.fontlilah {
+    font-family: "Italianno", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: clamp(30px, 2vw, 50px);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.267);
+}
+
+.padding1 {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.text1 {
+    font-weight: 800;
+    color: rgb(8, 85, 8);
+}
+
+.text2 {
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.top {
+    background-color: rgb(255, 254, 224);
+}
+
+.Taviraj {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hover-zoom:hover {
+      transform: scale(1.1);
+    }
+
+.taviraj-light {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bgimg {
+    background-image: url('../images/bg1.jpg');
+    background-size: 100% auto;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.taviraj1 {
+  font-family: "Taviraj", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #fffaaf;
+}
+
+.mitr-regular {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.book_img {
+    width: 80%;
+}
+
+.position {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+.centertext {
+    text-align: center;
+}}
+
+@media (min-width: 768px) {
+.righttext {
+    text-align: right;
+}}
+
+.mitrbig {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.mitrbig2 {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+.book_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}}
+
+.flag {
+    display: inline-block;
+    background-color: #f0bf6e;
+    padding: 0 4px;
+    margin-right: 16px;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.bg_text {
+    background-color: rgb(255, 255, 221, 0.8); ;
+    color: black;
+}
+
+.texthead {
+    color: rgb(255, 244, 160);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.kanit_head {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(25px, 2vw, 40px);
+  line-height: 1.4;
+}
+
+.kanit_m {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(20px, 2vw, 30px);
+  line-height: 1.4;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indent {
+    text-indent: 2em;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+
+  .line {
+     width: 40px;
+  height: 3px;
+  background-color: rgba(8, 85, 8);
+  margin: 0 auto 2rem;
+  }
