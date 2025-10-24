@@ -92,20 +92,32 @@
 }
 
 .position {
-    display: flex;
-    justify-items: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column; /* แนวตั้งสำหรับจอเล็ก */
+}
+
+@media (min-width: 768px) {
+  .position {
+    flex-direction: row; /* แนวนอนเมื่อจอใหญ่ */
+    justify-content: flex-end; /* 🔹 ชิดขวา */
     align-items: center;
+    text-align: right; /* 🔹 เพื่อให้ข้อความชิดขวาใน flex item ด้วย */
+  }
 }
 
 @media (max-width: 768px) {
-.centertext {
+  .centertext {
     text-align: center;
-}}
+  }
+}
 
 @media (min-width: 768px) {
-.righttext {
+  .righttext {
     text-align: right;
-}}
+  }
+}
 
 .mitrbig {
   font-family: "Mitr", sans-serif;
@@ -188,3 +200,19 @@
   background-color: rgba(8, 85, 8);
   margin: 0 auto 2rem;
   }
+
+  #carouselExampleCaptions {
+  width: 60%; /* ค่าพื้นฐาน (มือถือ) */
+}
+
+@media (min-width: 768px) {
+  #carouselExampleCaptions {
+    width: 50%; /* tablet */
+  }
+}
+
+@media (min-width: 1200px) {
+  #carouselExampleCaptions {
+    width: 25%; /* desktop ใหญ่ */
+  }
+}
